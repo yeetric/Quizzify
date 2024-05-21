@@ -1,29 +1,39 @@
-const username = document.getElementById('username');
-const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('finalScore');
+const nameDisplay = document.getElementById('name-display');
+const gradeDisplay = document.getElementById('grade-display');
+const contactDisplay = document.getElementById('contact-display');
 const mostRecentScore = localStorage.getItem('mostRecentScore');
-
-const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
-
-const MAX_HIGH_SCORES = 5;
 
 finalScore.innerText = mostRecentScore;
 
-username.addEventListener('keyup', () => {
-    saveScoreBtn.disabled = !username.value;
-});
+const user = JSON.parse(localStorage.getItem('user'));
+if (user) {
+  nameDisplay.innerText = `Name: ${user.name}`;
+  gradeDisplay.innerText = `Grade: ${user.grade}`;
+  contactDisplay.innerText = `Contact: ${user.contact}`;
+}
 
-saveHighScore = (e) => {
+exportUserInfo = (e) => {
     e.preventDefault();
 
-    const score = {
+    const userInfo = {
         score: mostRecentScore,
-        name: username.value,
+        name: user.name,
+        grade: user.grade,
+        contact: user.contact
     };
-    highScores.push(score);
-    highScores.sort((a, b) => b.score - a.score);
-    highScores.splice(5);
 
-    localStorage.setItem('highScores', JSON.stringify(highScores));
-    window.location.assign('/');
+    // Convert user info to CSV
+    const csvContent = Object.keys(userInfo).map(key => `${key},${userInfo[key]}`).join('\n');
+    
+    // Create a blob and download
+    const blob = new Blob([csvContent], {type: 'text/csv;charset=utf-8;'});
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.setAttribute('href', url);
+    link.setAttribute('download', `${user.name}_info.csv`);
+    link.style.visibility = 'hidden';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 };

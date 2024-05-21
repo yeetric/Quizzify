@@ -2,14 +2,15 @@
   display: flex;
   margin-bottom: 0.5rem;
   width: 100%;
-  font-size: 1.8rem;
-  border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  font-size: 1.6rem;
+  line-height: 1.5; /* Increase line-height for readability */
+  border: 1px solid rgba(86, 165, 235, 0.5);
   background-color: white;
 }
 
 .choice-container:hover {
   cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  box-shadow: 0 0.2rem 0.8rem 0 rgba(86, 185, 235, 0.3); /* Subtler shadow */
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
@@ -26,11 +27,11 @@
 }
 
 .correct {
-  background-color: #28a745;
+  background-color: #4CAF50; /* Lighter green for success */
 }
 
 .incorrect {
-  background-color: #dc3545;
+  background-color: #F44336; /* Lighter red for failure */
 }
 
 /* HUD */
@@ -56,10 +57,16 @@
   margin-top: 1.5rem;
 }
 
+
 #progressBarFull {
   height: 3.6rem;
   background-color: #56a5eb;
   width: 0%;
+}
+#progressText{
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  color: #56a5eb;
 }
 
 /* LOADER */
@@ -79,4 +86,9 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+#question {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
 }

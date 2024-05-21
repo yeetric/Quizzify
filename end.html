@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Congratulations!</title>
+    <title>Results</title>
     <link rel="stylesheet" href="./app.css" />
     <link rel="icon" type="image/jpg" href="./assets/Congo.jpg">
   </head>
@@ -13,26 +13,39 @@
   <body>
     <div class="container">
       <div id="end" class="flex-center flex-column">
-        <h1 id="finalScore"></h1>
-        <form>
-          <input
-            type="text"
-            name="username"
-            id="username"
-            placeholder="username"
-          />
+        <div class = "box"> 
+          <h1 id="finalScore"></h1>
+          <h4> Score has been uploaded to server backend. </h4>
+        </div>
+    
+        <div id="user-info">
+          <br> <br> <br> <br> 
+          <h2> Thanks for participating! 
+          <br> <br> 
+          Please also send these results back to us to make it easy for us (srsly send it back pleassseeeeee dont rig the data we will check) </h2>
+          <br>
+          <br>
+          <h2> 
+          luv,
+          eric</h2>   
+          <h3 style="display: none;" id="name-display">Name: </h3>
+          <h3 style="display: none;" id="grade-display">Grade: </h3>
+          <h3 style="display: none;"id="contact-display">Contact: </h3>
+        </div>
+
+        <form target="_blank">
           <button
-            type="submit"
-            class="btn"
-            id="saveScoreBtn"
-            onclick="saveHighScore(event)"
-            disabled
+        type="submit"
+        class="button-84"
+        id="exportBtn"
+        onclick="exportUserInfo(event)"
           >
-            Save
+        Export Results
           </button>
         </form>
-        <a class="btn" href="./game.html">Play Again</a>
-        <a class="btn" href="./">Go Home</a>
+
+        <br>
+        <h3><a href="https://www.google.com">Google Drive</a></h3>
       </div>
     </div>
     <script src="./end.js"></script>

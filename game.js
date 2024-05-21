@@ -12,9 +12,11 @@ let questionCounter = 0;
 let availableQuesions = [];
 
 let questions = [];
+var audio = new Audio('gum.mp3');
+audio.play();
 
 fetch(
-    'https://opentdb.com/api.php?amount=20&category=22&difficulty=easy&type=multiple'
+    'questions.json'
 )
     .then((res) => {
         return res.json();
@@ -48,7 +50,7 @@ fetch(
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 20;
+const MAX_QUESTIONS = 10;
 
 startGame = () => {
     questionCounter = 0;

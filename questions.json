@@ -1,182 +1,125 @@
-[
-    {
-        "question" : "The International Literacy Day is observed on ?",
-        "choice1" : "Sep 8",
-        "choice2" : "Nov 28",
-        "choice3" : "May 2",
-        "choice4" : "Sep 22",
-        "answer" : 1
-
-    },
-    {
-        "question" : "The language of Lakshadweep. a Union Territory of India, is ?",
-        "choice1" : "Hindi",
-        "choice2" : "Tamil",
-        "choice3" : "Telugu",
-        "choice4" : "Malayalam",
-        "answer" : 4
-
-    },
-    {
-        "question" : "In which group of places the Kumbha Mela is held every twelve years ?",
-        "choice1" : "Ujjain. Purl; Prayag. Haridwar",
-        "choice2" : "Prayag. Haridwar, Ujjain,. Nasik",
-        "choice3" : "Rameshwaram. Purl, Badrinath. Dwarika",
-        "choice4" : "Chittakoot, Ujjain, Prayag,'Haridwar",
-        "answer" : 2
-
-    },
-    {
-        "question" : "Bahubali festival is related to ?",
-        "choice1" : "Islam",
-        "choice2" : "Hinduism",
-        "choice3" : "Buddhism",
-        "choice4" : "Jainism",
-        "answer" : 4
-
-    },
-    {
-        "question" : "Which day is observed as the World Standards  Day ?",
-        "choice1" : "Jun 26",
-        "choice2" : "Oct 14",
-        "choice3" : "Nov 15",
-        "choice4" : "Dec 2",
-        "answer" : 2
-
-    },
-    {
-        "question" : "Who is the current Prime Minister Of India ?",
-        "choice1" : "Shri.Naremdra Modi",
-        "choice2" : "Rahul Gandhi",
-        "choice3" : "Dr. Manmohan Singh",
-        "choice4" : "Jawahar Lal Nehru",
-        "answer" : 1
-
-    },
-    {
-        "question" : "Who is the current President Of India ?",
-        "choice1" : "Pranab Mukharjee",
-        "choice2" : "Narendra Modi",
-        "choice3" : "Druapadi Murmur",
-        "choice4" : "Rahul Gandhi",
-        "answer" : 3
-
-    },
-    {
-        "question" : " Where is Taj Mahal located ?",
-        "choice1" : "Agra",
-        "choice2" : "Delhi",
-        "choice3" : "Mumbai",
-        "choice4" : "Mathura",
-        "answer" : 1
-
-    },
-    {
-        "question" : "On Which Day Independence Day is Celebrated ?",
-        "choice1" : "14 Nov",
-        "choice2" : "15 Aug",
-        "choice3" : "26 jan",
-        "choice4" : "2 Oct",
-        "answer" : 2
-
-    },
-    {
-        "question" : "Who was the First President of India ?",
-        "choice1" : "A.P.J Abdul Kalam",
-        "choice2" : "Dr. Rajendra Prasad",
-        "choice3" : "Sarvepalli Radhakrishnan",
-        "choice4" : "Zakir Hussain",
-        "answer" : 2
-
-    },
-    {
-        "question" : "On Which Day Childrens Day is Celebrated ?",
-        "choice1" : "2 Oct",
-        "choice2" : "14 Nov",
-        "choice3" : "06 Jun",
-        "choice4" : "11 Mar",
-        "answer" : 2
-
-    },
-    {
-        "question" : "Who was the First Prime Minister Of India ?",
-        "choice1" : "Swami Vivekanda",
-        "choice2" : "Pandit Jawaharlal Nehru",
-        "choice3" : "Lal Bahadur Shastri",
-        "choice4" : "Indira Gandhi",
-        "answer" : 2
-
-    },
-    {
-        "question" : "Who is the Chief Of Defence Staff ?",
-        "choice1" : "Lt General Anil Chauhan",
-        "choice2" : "General Manoj Pandey",
-        "choice3" : "General Manoj Mukund",
-        "choice4" : "General Bipin Rawat",
-        "answer" : 1
-
-    },
-    {
-        "question" : "Which one is a Union Territory of the following ?",
-        "choice1" : "Daman & Diu",
-        "choice2" : "New Delhi",
-        "choice3" : "Mumbai",
-        "choice4" : "Hyderabad",
-        "answer" : 1
-
-    },
-    {
-        "question" : "Who is the Parent Company Of Google ?",
-        "choice1" : "Alphabet",
-        "choice2" : "Microsoft",
-        "choice3" : "Apple",
-        "choice4" : "Amazon",
-        "answer" : 1
-
-    },
-    {
-        "question" : "Who is the Richest Person In the World ?",
-        "choice1" : "Bill Gates",
-        "choice2" : "Elon Musk",
-        "choice3" : "Bernard Arnault & Family",
-        "choice4" : "Jeff Bezos",
-        "answer" : 3
-
-    },
-    {
-        "question" : " What is Full form of C.B.I ?",
-        "choice1" : "Central Bank Of India",
-        "choice2" : "Crime Branch Of India",
-        "choice3" : "Central Bureau Of Investigation",
-        "choice4" : "Corporate Bussiness Intelligence",
-        "answer" : 3
-
-    },
-    {
-        "question" : " What is Full form of RBI ?",
-        "choice1" : "Reserve Bank of India",
-        "choice2" : "Royal Bank of India",
-        "choice3" : "Regional Bank of India",
-        "choice4" : "Reliance Bank of India",
-        "answer" : 1
-
-    },
-    {
-        "question" : " WWhich of the following is the highest mountain peak in India ?",
-        "choice1" : "Mount Everest",
-        "choice2" : "Kanchenjunga",
-        "choice3" : "Nanda Devi",
-        "choice4" : "Annapurna",
-        "answer" : 2
-
-    },
-    {
-        "question" : " Where is Mount Everest located ?",
-        "choice1" : "Nepal",
-        "choice2" : "India",
-        "choice3" : "China",
-        "choice4" : "Bhutan",
-        "answer" : 1
-
-    }
-]
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Reading and Writing",
+            "question": "Volunteering, or giving time for a community service for free, is a valuable form of civic engagement because helping in a community is also good for society as a whole. In a survey of youths in the United States, most young people said that they believe volunteering is a way to help people on an individual level. Meanwhile, only 6% of the youths said that they think volunteering is a way to help fix problems in society overall. These replies suggest that ______",
+            "correct_answer": "volunteering may be even more helpful than many young people think it is.",
+            "incorrect_answers": [
+                "many young people think they can volunteer only within their own communities.",
+                "volunteering can help society overall more than it can help individual people.",
+                "many young people may not know how to find ways to volunteer their time."
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Reading and Writing",
+            "question": "Etched into Peru’s Nazca Desert are line drawings so large that they can only be fully seen from high above. Archaeologists have known of the lines since the 1920s, when a researcher spotted some from a nearby foothill, and they have been studying the markings ever since. ______ archaeologists’ efforts are aided by drones that capture high-resolution aerial photographs of the lines.",
+            "correct_answer": "Currently,",
+            "incorrect_answers": [
+                "In comparison,",
+                "Still,",
+                "However"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Reading and Writing",
+            "question": "In assessing the films of Japanese director Akira Kurosawa, ______ have missed his equally deep engagement with Japanese artistic traditions such as Noh theater.",
+            "correct_answer": "many critics have focused on Kurosawa’s use of Western literary sources but",
+            "incorrect_answers": [
+                "Kurosawa’s use of Western literary sources has been the focus of many critics, who",
+                "there are many critics who have focused on Kurosawa’s use of Western literary sources, but they",
+                "the focus of many critics has been on Kurosawa’s use of Western literary sources; they"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Reading and Writing",
+            "question": "During a 2014 archaeological dig in Spain, Vicente Lull and his team uncovered the skeleton of a woman from El Algar, an Early Bronze Age society, buried with valuable objects signaling a high position of power. This finding may persuade researchers who have argued that Bronze Age societies were ruled by men to ______ that women may have also held leadership roles.",
+            "correct_answer": "concede",
+            "incorrect_answers": [
+                "waive",
+                "refute",
+                "require"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Reading and Writing",
+            "question": "Seneca sculptor Marie Watt’s blanket art comes in a range of shapes and sizes. In 2004, Watt sewed strips of blankets together to craft a 10-by-13-inch ______ in 2014, she arranged folded blankets into two large stacks and then cast them in bronze, creating two curving 18-foot-tall blue-bronze pillars.",
+            "correct_answer": "sampler;",
+            "incorrect_answers": [
+                "sampler later,",
+                "sampler,",
+                "sampler, later,"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Reading and Writing",
+            "question": "The city of Pompeii, which was buried in ash following the eruption of Mount Vesuvius in 79 CE, continues to be studied by archaeologists. Unfortunately, as ______ attest, archaeological excavations have disrupted ash deposits at the site, causing valuable information about the eruption to be lost.",
+            "correct_answer": "researchers Roberto Scandone and Christopher Kilburn",
+            "incorrect_answers": [
+                "researchers, Roberto Scandone and Christopher Kilburn,",
+                "researchers, Roberto Scandone and Christopher Kilburn",
+                "researchers Roberto Scandone, and Christopher Kilburn"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Reading and Writing",
+            "question": "As Mexico’s first president from an Indigenous community, Benito Juarez became one of the most ______ figures in his country’s history: among the many significant accomplishments of his long tenure in office (1858–1872), Juarez consolidated the authority of the national government and advanced the rights of Indigenous peoples.",
+            "correct_answer": "important",
+            "incorrect_answers": [
+                "unpredictable",
+                "secretive",
+                "ordinary"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Reading and Writing",
+            "question": "Atoms in a synchrotron, a type of circular particle accelerator, travel faster and faster until they ______ a desired energy level, at which point they are diverted to collide with a target, smashing the atoms.",
+            "correct_answer": "reach",
+            "incorrect_answers": [
+                "will reach",
+                "had reached",
+                "are reaching"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Reading and Writing",
+            "question": "In winter, the diets of Japanese macaques, also known as snow monkeys, are influenced more by food availability than by food preference. Although the monkeys prefer to eat vegetation and land-dwelling invertebrates, those food sources may become unavailable because of extensive snow and ice cover, ______ the monkeys to hunt for marine animals in any streams that have not frozen over.",
+            "correct_answer": "forcing",
+            "incorrect_answers": [
+                "forces",
+                "to force",
+                "forced"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Reading and Writing",
+            "question": "Literary agents estimate that more than half of all nonfiction books credited to a celebrity or other public figure are in fact written by ghostwriters, professional authors who are paid to write other ______ but whose names never appear on book covers.",
+            "correct_answer": "people’s stories",
+            "incorrect_answers": [
+                "peoples story’s",
+                "peoples stories",
+                "people’s story’s"
+            ]
+        }
+    ]
+}
