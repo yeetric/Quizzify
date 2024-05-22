@@ -34,7 +34,7 @@ exportUserInfo = (e) => {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.setAttribute('href', url);
-    link.setAttribute('download', `${user.name}_info.csv`);
+    link.setAttribute('download', `${user.name}_info_DAY2AMCTEST.csv`); 
     link.style.visibility = 'hidden';
     document.body.appendChild(link);
     link.click();

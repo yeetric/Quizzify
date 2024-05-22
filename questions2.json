@@ -1,0 +1,85 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Mathematics",
+            "question": "One ticket to a show costs $20 at full price. Susan buys 4 tickets using a coupon that gives her a 25% discount. Pam buys 5 tickets using a coupon that gives her a 30% discount. How many more dollars does Pam pay than Susan?",
+            "correct_answer": "10",
+            "incorrect_answers": ["2", "5", "15", "20"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Mathematics",
+            "question": "Define a@b = ab - b^2 and a#b = a + b - ab^2. What is (6@2)/(6#2)?",
+            "correct_answer": "-1/2",
+            "incorrect_answers": ["-1/4", "1/8", "1/4", "1/2"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Mathematics",
+            "question": "An aquarium has a rectangular base that measures 100 cm by 40 cm and has a height of 50 cm. It is filled with water to a height of 40 cm. A brick with a rectangular base that measures 40 cm by 20 cm and a height of 10 cm is placed in the aquarium. By how many centimeters does the water rise?",
+            "correct_answer": "2",
+            "incorrect_answers": ["0.5", "1", "1.5", "2.5"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Mathematics",
+            "question": "The larger of two consecutive odd integers is three times the smaller. What is their sum?",
+            "correct_answer": "4",
+            "incorrect_answers": ["8", "12", "16", "20"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Mathematics",
+            "question": "The school store sells 7 pencils and 8 notebooks for $4.15. It also sells 5 pencils and 3 notebooks for $1.77. How much do 16 pencils and 10 notebooks cost?",
+            "correct_answer": "$5.84",
+            "incorrect_answers": ["$1.76", "$6.00", "$6.16", "$6.32"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Mathematics",
+            "question": "At Euclid High School, the number of students taking the AMC 10 was 60 in 2002, 66 in 2003, 70 in 2004, 76 in 2005, 78 in 2006, and 85 in 2007. Between what two consecutive years was there the largest percentage increase?",
+            "correct_answer": "2002 and 2003",
+            "incorrect_answers": ["2003 and 2004", "2004 and 2005", "2005 and 2006", "2006 and 2007"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Mathematics",
+            "question": "The Dunbar family consists of a mother, a father, and some children. The average age of the members of the family is 20, the father is 48 years old, and the average age of the mother and children is 16. How many children are in the family?",
+            "correct_answer": "6",
+            "incorrect_answers": ["2", "3", "4", "5"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Mathematics",
+            "question": "Two tour guides are leading six tourists. The guides decide to split up. Each tourist must choose one of the guides, but with the stipulation that each guide must take at least one tourist. How many different groupings of guides and tourists are possible?",
+            "correct_answer": "62",
+            "incorrect_answers": ["56", "58", "60", "64"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Mathematics",
+            "question": "Yan is somewhere between his home and the stadium. To get to the stadium he can walk directly to the stadium, or else he can walk home and then ride his bicycle to the stadium. He rides 7 times as fast as he walks, and both choices require the same amount of time. What is the ratio of Yan's distance from his home to his distance from the stadium?",
+            "correct_answer": "3/4",
+            "incorrect_answers": ["2/3", "4/5", "5/6", "7/8"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Mathematics",
+            "question": "Integers a, b, c, and d, not necessarily distinct, are chosen independently and at random from 0 to 2007, inclusive. What is the probability that ad-bc is even?",
+            "correct_answer": "5/8",
+            "incorrect_answers": ["3/8", "7/16", "1/2", "9/16"]
+        }
+    ]
+}
