@@ -1,0 +1,85 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Mathematics",
+            "question": "The Dunbar family consists of a mother, a father, and some children. The average age of the members of the family is 20, the father is 48 years old, and the average age of the mother and children is 16. How many children are in the family?",
+            "correct_answer": "6",
+            "incorrect_answers": ["2", "3", "4", "5"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Algebra",
+            "question": "Which of these numbers is less than its reciprocal?",
+            "correct_answer": "-2",
+            "incorrect_answers": ["-1", "0", "1", "2"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geometry",
+            "question": "How many whole numbers lie in the interval between 5/3 and 2 pi?",
+            "correct_answer": "5",
+            "incorrect_answers": ["2", "3", "4", "infinitely many"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Algebra",
+            "question": "Each principal of Lincoln High School serves exactly one 3-year term. What is the maximum number of principals this school could have during an 8-year period?",
+            "correct_answer": "4",
+            "incorrect_answers": ["2", "3", "5", "8"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Algebra",
+            "question": "What is the minimum possible product of three different numbers of the set {-8,-6,-4,0,3,5,7}?",
+            "correct_answer": "-280",
+            "incorrect_answers": ["-336", "-210", "-192", "0"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Algebra",
+            "question": "Ara and Shea were once the same height. Since then Shea has grown 20% while Ara has grown half as many inches as Shea. Shea is now 60 inches tall. How tall, in inches, is Ara now?",
+            "correct_answer": "55",
+            "incorrect_answers": ["48", "51", "52", "54"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Mathematics",
+            "question": "The larger of two consecutive odd integers is three times the smaller. What is their sum?",
+            "correct_answer": "4",
+            "incorrect_answers": ["8", "12", "16", "20"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Geometry",
+            "question": "In order for Mateen to walk a kilometer (1000 meters) in his rectangular backyard, he must walk the length 25 times or walk its perimeter 10 times. What is the area of Mateen's backyard in square meters?",
+            "correct_answer": "400",
+            "incorrect_answers": ["40", "200", "500", "1000"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Algebra",
+            "question": "You have nine coins: a collection of pennies, nickels, dimes, and quarters having a total value of 1.02 dollars, with at least one coin of each type. How many dimes must you have?",
+            "correct_answer": "1",
+            "incorrect_answers": ["2", "3", "4", "5"]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Probability",
+            "question": "Keiko tosses one penny and Ephraim tosses two pennies. The probability that Ephraim gets the same number of heads that Keiko gets is",
+            "correct_answer": "3/8",
+            "incorrect_answers": ["1/4", "1/2", "2/3", "3/4"]
+        }
+    ]
+}

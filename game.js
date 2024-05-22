@@ -14,7 +14,7 @@ let availableQuesions = [];
 let questions = [];
 
 fetch(
-    'questions2.json'
+    'questions3.json'
 )
     .then((res) => {
         return res.json();
