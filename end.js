@@ -2,7 +2,9 @@ const finalScore = document.getElementById('finalScore');
 const nameDisplay = document.getElementById('name-display');
 const gradeDisplay = document.getElementById('grade-display');
 const contactDisplay = document.getElementById('contact-display');
+
 const mostRecentScore = localStorage.getItem('mostRecentScore');
+const fiveScore = localStorage.getItem('fiveScore');
 
 finalScore.innerText = mostRecentScore;
 
@@ -17,6 +19,7 @@ exportUserInfo = (e) => {
     e.preventDefault();
 
     const userInfo = {
+        premusicScore: fiveScore, 
         score: mostRecentScore,
         name: user.name,
         grade: user.grade,

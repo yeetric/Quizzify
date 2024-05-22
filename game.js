@@ -12,8 +12,6 @@ let questionCounter = 0;
 let availableQuesions = [];
 
 let questions = [];
-var audio = new Audio('gum.mp3');
-audio.play();
 
 fetch(
     'questions.json'
@@ -51,7 +49,7 @@ fetch(
 //CONSTANTS
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
-
+var notPlayed = true;
 startGame = () => {
     questionCounter = 0;
     score = 0;
@@ -83,6 +81,17 @@ getNewQuestion = () => {
 
     availableQuesions.splice(questionIndex, 1);
     acceptingAnswers = true;
+    console.log(questionCounter)
+    if (questionCounter > 5 && notPlayed){
+        console.log("Playing audio");   
+        var audioName = localStorage.getItem('selectedSong');
+        var audio = new Audio(audioName);
+        audio.play();
+        notPlayed = false;
+    }
+    if (questionCounter == 6){
+        localStorage.setItem('fiveScore', score);
+    }   
 };
 
 choices.forEach((choice) => {
