@@ -12,7 +12,8 @@ let questionCounter = 0;
 let availableQuesions = [];
 
 let questions = [];
-
+var audioName = localStorage.getItem('selectedSong');
+var audio = new Audio(audioName);
 fetch(
     'questions.json'
 )
@@ -82,20 +83,12 @@ getNewQuestion = () => {
     availableQuesions.splice(questionIndex, 1);
     acceptingAnswers = true;
     console.log(questionCounter)
-    if (questionCounter > 5 && notPlayed){
-        console.log("Playing audio");   
-        var audioName = localStorage.getItem('selectedSong');
-        var audio = new Audio(audioName);
-        audio.play();
-        notPlayed = false;
-    }
-    if (questionCounter == 6){
-        localStorage.setItem('fiveScore', score);
-    }   
 };
 
 choices.forEach((choice) => {
     choice.addEventListener('click', (e) => {
+        console.log("Clicked");
+
         if (!acceptingAnswers) return;
 
         acceptingAnswers = false;
@@ -110,6 +103,25 @@ choices.forEach((choice) => {
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
+        if (questionCounter == 5){
+            localStorage.setItem('fiveScore', score);
+            console.log("Score at 5: " + score);
+        }   
+
+        if (questionCounter >= 5 && notPlayed){
+            console.log("Playing audio");   
+            
+            
+            audio.addEventListener('ended', function() {
+                this.currentTime = 0;
+                this.play();
+                console.log("Playing audio");
+                }, false);
+            
+            audio.play();	 
+            console.log("Playing audio 2");
+            notPlayed = false;
+        }
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
